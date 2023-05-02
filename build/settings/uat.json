@@ -1,0 +1,13 @@
+{
+    "ServerName": "localhost",
+    "ServiceUserName": "administrator",
+    "Email": "regdocs@lebermuth.com",
+    "UserName": "Technology",
+    "DbUserName": "LisamRW",
+    "EIPKeyName": "SecretKey",
+    "EIPIVName": "SecretIV",
+    "LeberDWSConnectionString": "Data Source=.;database=.;User={UserName};Password={Password};",
+    "HostName": "WebAppication",
+    "Port": 80,
+    "ServiceStatusUrl": ""
+}

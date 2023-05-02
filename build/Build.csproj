@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RunWorkingDirectory>$(MSBuildProjectDirectory)</RunWorkingDirectory>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Cake.FileHelpers" Version="5.0.0" />
+    <PackageReference Include="Cake.Frosting" Version="3.0.0" />
+    <PackageReference Include="Cake.IIS" Version="1.0.0" />
+    <PackageReference Include="Cake.Json" Version="7.0.1" />
+    <PackageReference Include="NUnit.ConsoleRunner" Version="3.16.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebAppication.Core\WebAppication.Core.csproj" />
+  </ItemGroup>
+</Project>
